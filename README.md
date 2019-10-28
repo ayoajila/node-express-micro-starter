@@ -1,5 +1,4 @@
 # node-express-micro-starter
-node + express microservice starter app.
 
 ## Purpose
 node + express **_starter kit_** for developing microservice node js applications.
@@ -20,8 +19,8 @@ This command will start the application in dev mode
 ```
 $ npm run dev
 ```
-##### dev start up all mode
-This command will run lint, test, outdated, and dev scripts found in package.json
+##### all scripts
+This command will run lint, test, and outdated scripts found in package.json
 ```
 $ npm run all
 ```

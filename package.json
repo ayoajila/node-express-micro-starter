@@ -14,7 +14,7 @@
     "test": "node node_modules/jest/bin/jest.js",
     "outdated": "npm outdated",
     "dev": "cross-env NODE_ENV=development nodemon --max-http-header-size=40000 ./bin/www",
-    "all": "npm-run-all --parallel lint outdated audit test dev",
+    "all": "npm-run-all --parallel lint outdated audit test",
     "start": "cross-env NODE_ENV=production node --max-http-header-size=40000 ./bin/www"
   },
   "dependencies": {
